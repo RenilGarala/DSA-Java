@@ -1,29 +1,27 @@
 class Solution{
     public static void main(String[] args){
         Array a1 = new Array(7);
+
         a1.append(10);
         a1.append(20);
         a1.append(30);
         a1.append(40);
         a1.append(50);
-        a1.append(60);
-        a1.append(70);
-        a1.getValue(6);
-        
         a1.display();
+        //you can call many other methods accoding requirements
     }
 }
 class Array{
     int lastIndex;
     int size;
     int []ptr;
+
     public Array(int size){
         this.size = size;
         ptr= new int[size];
         lastIndex=-1;
     }
-
-    //add data after last added position
+    
     public void append(int value){
         if(lastIndex==size-1){
             System.out.println("Array size is full");
