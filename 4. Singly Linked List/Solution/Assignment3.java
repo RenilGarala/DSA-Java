@@ -1,7 +1,5 @@
 //Incomplete Assignment
 
-import org.w3c.dom.Node;
-
 class Assignment3 {
     public static void main(String[] args) {
         SLL linkedlist = new SLL();
