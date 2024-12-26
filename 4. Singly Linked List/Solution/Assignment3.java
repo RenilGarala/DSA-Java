@@ -14,7 +14,6 @@ class Assignment3 {
         linkedlist.insertNode(90);
         
         linkedlist.printLinkedListData();
-
     }
 }
 
@@ -134,7 +133,6 @@ class SLL {
             }
         }
     }
-
     //print all items in the list
     void printLinkedListData(){
         Node temp = start;
